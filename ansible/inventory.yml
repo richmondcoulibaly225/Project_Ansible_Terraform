@@ -1,0 +1,11 @@
+all:
+  hosts:
+    host1:
+      ansible_host: 18.201.181.65
+      message: "Hello World 1"
+    host2:
+      ansible_host: 172.31.187.24
+      message: "Hello World 2"
+  vars:
+    ansible_user: ubuntu
+    ansible_ssh_private_key_file: ../terraform/richmond_key.pem

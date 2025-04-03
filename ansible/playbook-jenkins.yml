@@ -1,0 +1,6 @@
+---
+- name: Installer Jenkins sur Host1
+  hosts: host1
+  become: yes
+  roles:
+    - jenkins
